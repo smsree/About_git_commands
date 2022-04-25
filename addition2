@@ -1,0 +1,7 @@
+#!/bin/bash
+addition(){
+m=$1
+n=$2
+echo "The additon of $m and $n is $((m+n))"
+}
+addition() $1 $2

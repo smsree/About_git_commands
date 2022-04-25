@@ -1,0 +1,13 @@
+#!/bin/bash
+array=(RCB CSK MI)
+echo ${array[@]}
+select team in ${array[@]}
+do
+case $team in
+RCB) "Royal challenges bangalore";;
+CSK) "Chennai super kings";;
+MI) "mumbai indians";;
+*) echo "invalid input"
+esac
+done
+

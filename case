@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "enter your favourite cricket team
+ RCB , CSK, MI "
+ read choice 
+ case $choice in
+ RCB) echo "Royal challanges bangalore";;
+ CSK) echo "Chennai super kings";;
+ MI) echo "Mumbai indians";;
+ *) echo "invalid try again"
+ esac
