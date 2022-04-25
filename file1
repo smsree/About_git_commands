@@ -1,0 +1,5 @@
+To see the present directory "git remote -v"
+to change the pull or push url
+git remote set-url origin <url>
+git remote set-url --push origin <url>
+git remote set-url --pull origin <url>
