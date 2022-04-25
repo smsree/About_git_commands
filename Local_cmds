@@ -1,0 +1,15 @@
+to initialize  == "git init ." // ". indicates current directory"
+to add file    == "git add <file>"
+to undo the action == "git restore --staged <file>"
+to commit or conform == "git commit -m "message""
+to remove file from cached == "git rm --cached <file>"
+to see log == "git log"
+to see in one line == "git log --oneline"
+to set head to one id means == "git reset <cmt id>
+git reset --soft <cmt id>
+git reset --hard <cmt id
+>
+[A[A[B[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C>
+to delete == "git revert<id>[D[D[D[D [C[C[D[D[C[C<id>
+if we need to give any access to other person means settings -> manage account -> invite a collabarator
+to fetch == "git clone <url>
