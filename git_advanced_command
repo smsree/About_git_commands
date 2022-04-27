@@ -1,0 +1,24 @@
+git merge:
+used to merge two branches updates all files in old branch to new branch 
+first we have checkout to new branch and then merge is possible
+"git merge <oldbranch>
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <newbranch>"
+git rebase:
+from one particular commit we can update all the files
+git rebase <old> <new>
+git cherry-pick:
+*cherry pick is an act of picking one commit from another branch
+git cherry-pick <cmt id>
+git stash:
+used the git add files in back ground uses stack 
+git stash
+[A[C[C[C[C[C[C[C[C[C[C- to push them in background 
+git stash pop -to pop the last file
+git stash list - shows the stash list
+git stash pop <id> -pop the id file
+git squash:
+merge many commit to one commit
+very risky since it changes the history
+git rebase -i HEAD[A[B~[A[DT[B[C[D[C[D[`NUMBER OF COMMIT][D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [C[D[D][COR
+git rebase -i <cmt ids>
+we cannot squash without previous commit
